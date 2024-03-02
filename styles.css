@@ -1,0 +1,40 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Espaçamento entre os itens da navegação */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Cor dos links */
+    font-weight: bold; /* Estilo da fonte */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+nav ul li a:hover {
+    color: blue; /* Cor do link ao passar o mouse por cima */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos opcionais para o cabeçalho e conteúdo principal */
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
